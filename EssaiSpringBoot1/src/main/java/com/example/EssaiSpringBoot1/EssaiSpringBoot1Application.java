@@ -10,4 +10,8 @@ public class EssaiSpringBoot1Application {
 		SpringApplication.run(EssaiSpringBoot1Application.class, args);
 	}
 
+	public void run(String... args) throws Exception{
+		System.out.println("Hello World!");
+	}
+
 }
